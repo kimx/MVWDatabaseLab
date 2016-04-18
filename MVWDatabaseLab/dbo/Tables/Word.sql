@@ -4,7 +4,7 @@
     [ToWord]     NVARCHAR (MAX) NULL,
     [CreateUtc]  DATETIME       NOT NULL,
     [ModifyUtc]  DATETIME       NOT NULL,
-    [CreateUser] NVARCHAR (MAX) NULL,
+    [CreateUser] NVARCHAR (MAX) NOT NULL,
     [KnowTimes]  INT            DEFAULT ((0)) NOT NULL,
     [Closed]     BIT            DEFAULT ((0)) NOT NULL,
     [CloseUtc]   DATETIME       NULL,
